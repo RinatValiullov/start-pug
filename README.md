@@ -12,7 +12,7 @@ This is a very simple starter kit for development on [Pug](https://pugjs.org) te
 
 - Or you can create a repository from this template. Find the `Use this template` button in the upper right corner and click it. Then you can choose your own repo name, description and other functions:
 
-![use this template button](./use-template.jpg)
+![use this template button](use-template.JPG)
 
 - Or you can clone this repository:
 
