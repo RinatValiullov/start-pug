@@ -2,7 +2,7 @@
 
 ## Overview 
 
-This is a very simple starter kit for development on [Pug](https://pugjs.org) template engine that uses the [gulp](https://gulpjs.com) task runner to transform pug files.
+This is a very simple starter kit for development on [Pug](https://pugjs.org) template engine that uses the [gulp](https://gulpjs.com) task runner and [gulp-pug](https://github.com/gulp-community/gulp-pug) plugin to compile Pug templates.
 
 ## Quickstart
 
@@ -10,7 +10,7 @@ This is a very simple starter kit for development on [Pug](https://pugjs.org) te
 
 - You can immediately download the [zip](https://github.com/RinatValiullov/start-pug/archive/refs/heads/main.zip) files.
 
-- Or you can create a repository from this template. Find in the right top corner the button `Use this template` and press it. Then you can choose your own repo name, description and other functions:
+- Or you can create a repository from this template. Find the `Use this template` button in the upper right corner and click it. Then you can choose your own repo name, description and other functions:
 
 <img src="use-template.jpg" alt="use this template button">
 
@@ -53,26 +53,29 @@ yarn start
 ## File structure
 
 ```
-- src/
-    - includes/
-      - header.pug
-      - footer.pug
-    - index.pug
 - dist/
-    - html/
-      - index.html
-      - styles/
-        - main.css
-      - scripts/
-        - main.js
-      - assets/
+    - assets/
         - images/
         - fonts/
-package.json
-gulpfile.js
-README.md
+    - scripts/
+        - main.js
+    - styles/
+        - main.css
+        - reset.css
+    - index.html
+- src/
+    - includes/
+        - _footer.pug
+        - _header.pug
+    - layouts
+        - _main.pug
+    - index.pug
 .gitignore
+LICENSE
+gulpfile.js
+package.json
+README.md
 ```
 
-## If you have any questions you can always contact [me](https://t.me/fredddie).
+## If you have any questions you can always [contact me](https://t.me/fredddie).
 ## If you have any suggestions or you want to make the template a little better, you can always create an [Issue](https://github.com/RinatValiullov/start-pug/issues/new) or [PR](https://github.com/RinatValiullov/start-pug/pulls). 
