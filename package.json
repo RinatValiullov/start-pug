@@ -1,0 +1,28 @@
+{
+  "name": "start-pug",
+  "version": "1.0.0",
+  "description": "Starter kit for development on Pug template engine",
+  "main": "index.js",
+  "scripts": {
+    "start": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RinatValiullov/start-pug.git"
+  },
+  "keywords": [
+    "template",
+    "pug",
+    "gulp"
+  ],
+  "author": "4rontender <4rontender@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RinatValiullov/start-pug/issues"
+  },
+  "homepage": "https://github.com/RinatValiullov/start-pug#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-pug": "^5.0.0"
+  }
+}
